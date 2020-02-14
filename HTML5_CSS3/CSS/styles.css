@@ -10,3 +10,12 @@ body {
 .subtitle {
   color: rgb(200, 148, 30);
 }
+
+#service-image {
+  height: 400px;
+  width: 70%;
+
+  background: url("./image/img-2.jpg");
+  background-size: contain;
+  background-color: steelblue;
+}
