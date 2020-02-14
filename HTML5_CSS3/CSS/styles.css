@@ -1,54 +1,12 @@
-h2:hover {
-  color: red;
+body {
+  background: rgb(204, 229, 255);
 }
 
-h2[class="subtitle"] {
-  color: blue;
+#title {
+  color: #ba8509;
+  color: rgb(186, 133, 9);
 }
 
 .subtitle {
-  color: blue;
-}
-
-#services {
-  color: green;
-}
-
-/* li:only-child {
-  color: steelblue;
-} */
-
-td:only-child {
-  color: purple;
-}
-
-/* #google-link:link {
-  color: blue;
-}
-#google-link:visited {
-  color: red;
-} */
-
-h2 + a {
-  color: red;
-}
-
-textarea ~ button {
-  color: purple;
-}
-
-ul > li {
-  color: blue;
-}
-
-ul li {
-  color: green;
-}
-
-img[src*="./image/"] {
-  border: 10px solid black;
-}
-
-h2[class~="article-subtitle"] {
-  background: green;
+  color: rgb(200, 148, 30);
 }
