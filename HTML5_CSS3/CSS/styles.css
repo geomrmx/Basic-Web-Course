@@ -1,9 +1,12 @@
 body {
-  background: rgb(204, 229, 255);
+  background: linear-gradient(
+    to bottom,
+    rgb(204, 229, 255),
+    rgba(204, 229, 255, 0.4)
+  );
 }
 
 #title {
-  color: #ba8509;
   color: rgb(186, 133, 9);
 }
 
@@ -15,7 +18,5 @@ body {
   height: 400px;
   width: 70%;
 
-  background: url("./image/img-2.jpg");
-  background-size: contain;
-  background-color: steelblue;
+  background: radial-gradient(circle, red 20%, blue 40%, green 55%);
 }
